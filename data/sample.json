@@ -1,0 +1,78 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "category": "Electronics",
+        "price": 29.99,
+        "stock": 150,
+        "rating": 4.5,
+        "description": "Ergonomic wireless mouse with long battery life.",
+        "colors": ["Black", "Blue", "Red"],
+        "images": [
+          "mouse_black.jpg",
+          "mouse_blue.jpg",
+          "mouse_red.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Bluetooth Headphones",
+        "category": "Electronics",
+        "price": 59.99,
+        "stock": 85,
+        "rating": 4.7,
+        "description": "Noise-cancelling over-ear headphones with superior sound quality.",
+        "colors": ["Black", "White", "Gray"],
+        "images": [
+          "headphones_black.jpg",
+          "headphones_white.jpg",
+          "headphones_gray.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Smartphone Stand",
+        "category": "Accessories",
+        "price": 14.99,
+        "stock": 300,
+        "rating": 4.2,
+        "description": "Adjustable stand for smartphones and tablets.",
+        "colors": ["Silver", "Black"],
+        "images": [
+          "stand_silver.jpg",
+          "stand_black.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "USB-C Charger",
+        "category": "Electronics",
+        "price": 24.99,
+        "stock": 200,
+        "rating": 4.6,
+        "description": "Fast-charging USB-C charger for phones and tablets.",
+        "colors": ["White", "Black"],
+        "images": [
+          "charger_white.jpg",
+          "charger_black.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Waterproof Backpack",
+        "category": "Bags",
+        "price": 49.99,
+        "stock": 60,
+        "rating": 4.8,
+        "description": "Durable waterproof backpack for outdoor adventures.",
+        "colors": ["Blue", "Green", "Black"],
+        "images": [
+          "backpack_blue.jpg",
+          "backpack_green.jpg",
+          "backpack_black.jpg"
+        ]
+      }
+    ]
+  }
+  

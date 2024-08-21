@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .product-container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .product-header img {
+            width: 300px;
+            border-radius: 8px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product-details h1 {
+            font-size: 28px;
+            margin: 0 0 10px 0;
+        }
+        .product-details p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .product-details .price {
+            font-size: 24px;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+        .product-details .stock {
+            font-size: 16px;
+            color: #888;
+        }
+        .product-details .rating {
+            font-size: 18px;
+            color: #FFD700;
+            margin: 10px 0;
+        }
+        .product-description {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        .product-colors {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-container">
+        <div class="product-header">
+            <img src="{{%image%}}" alt="Wireless Mouse">
+            <div class="product-details">
+                <h2>{{%name%}}</h2>
+            <p class="category">{{%category%}}</p>
+            <p class="price">{{%price%}}</p>
+            <p class="stock">{{%stock%}}</p>
+            <p class="rating">{{%rating%}}</p>
+            <p class="description">{{%description%}}</p>
+            </div>
+        </div>
+
+        <div class="product-description">
+            <h2>Description</h2>
+            <p>The Wireless Mouse is designed for comfort and productivity. Its ergonomic shape provides all-day comfort, while the long battery life ensures you stay productive without interruptions. It’s perfect for both office and home use.</p>
+        </div>
+
+        <div class="product-colors">
+            <h2>Available Colors</h2>
+            <p>Black, Blue, Red</p>
+        </div>
+    </div>
+
+</body>
+</html>

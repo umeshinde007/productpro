@@ -1,0 +1,1 @@
+this is addded using write file syn function
